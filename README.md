@@ -5,7 +5,7 @@
 - Read a random math-related quote. Built with React and  CSS.
 ## View
 
-![Image](scree.png)
+![Image](screen.png)
 
 ## Built With
 
