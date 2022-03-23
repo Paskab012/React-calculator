@@ -9,8 +9,8 @@
 
 ## Built With
 
-- HTML, CSS, JAVASCRIPT
-- WEBPACK
+- REACT
+- CSS
 
 ## Live Demo (if available)
 
