@@ -1,9 +1,14 @@
 import React from 'react';
 import './calculator.css';
 
-function Calculator() {
-  return (
-    <>
+export default class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    return (
       <div className="container">
         <div className="calc-container">
           <div className="screen" />
@@ -28,8 +33,6 @@ function Calculator() {
           <button type="button" className="btn orange">=</button>
         </div>
       </div>
-    </>
-  );
+    );
+  }
 }
-
-export default Calculator;
