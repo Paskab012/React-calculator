@@ -1,7 +1,7 @@
 import React from 'react';
-import './index.css';
+import './calculator.css';
 
-function Logic() {
+function Calculator() {
   return (
     <>
       <div className="container">
@@ -32,4 +32,4 @@ function Logic() {
   );
 }
 
-export default Logic;
+export default Calculator;
