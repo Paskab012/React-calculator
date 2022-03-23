@@ -1,6 +1,5 @@
-/* eslint-disable react/self-closing-comp */
 import './App.css';
-import Logic from './Routers';
+import Logic from './components';
 
 function App() {
   return (
