@@ -1,11 +1,16 @@
-# REACT PROJECT SETUP
+# MATH MAGICIAN PROJECT
 
-> Just a simple app showing my task to be done, adding and removing them from the list
+> "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: 
+- Make simple calculations. 
+- Read a random math-related quote. Built with React and  CSS.
+## View
+
+![Image](screen.png)
 
 ## Built With
 
-- HTML, CSS, JAVASCRIPT
-- WEBPACK
+- REACT
+- CSS
 
 ## Live Demo (if available)
 
