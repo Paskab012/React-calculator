@@ -1,0 +1,52 @@
+nav {
+  padding: 3rem;
+  background-color: rgb(131, 131, 131);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #ddd;
+  outline: none;
+}
+
+ul li:not(:first-child)::before {
+  content: "";
+  border-left: 1px solid rgb(255, 208, 0);
+  padding: 0 0 0 1rem;
+  margin-left: 1rem;
+}
+
+.logo {
+  text-decoration: none;
+  color: tomato !important;
+  text-align: center;
+  display: flex;
+}
+
+.active {
+  color: tomato;
+}
+
+/* media queries */
+
+/* Medium Devices, Desktops */
+
+@media (min-width: 992px) {
+  nav {
+    padding: 3rem 20rem;
+  }
+}
